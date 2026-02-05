@@ -1,0 +1,28 @@
+.umb-block-grid__area-container .umb-block-grid__area[data-area-col-span="12"] {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
+.umb-block-grid__area-container .umb-block-grid__area[data-area-col-span="10"] {
+    max-width: 80%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+}
+
+.umb-block-grid__area-container .umb-block-grid__area[data-area-col-span="2"] {
+    max-width: 20%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    grid-column-end: inherit;
+}
+
+
+.umb-block-grid__area-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
