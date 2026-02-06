@@ -442,6 +442,76 @@ const AmericasLNGSummit: React.FC = () => {
                           </div>
                         </section>
                       </div>
+                      {/* --- Begin: Additional Main Content Sections from HTML --- */}
+                      {/* Card Blocks Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <section className="image-text-card-block three-col-image-card enable-background">
+                          <div className="container">
+                            {/* TODO: Map and render card blocks with hover content here */}
+                            <div className="card-blocks-placeholder">Card blocks go here</div>
+                          </div>
+                        </section>
+                      </div>
+
+                      {/* Full Width Header Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <div className="full-width-header theme-3">
+                          <div className="container">
+                            {/* TODO: Add full width header content here */}
+                            <div className="full-width-header-placeholder">Full width header content</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Logo Listing Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <section className="logo__listing-module layout-2">
+                          {/* TODO: Map and render logo listings here */}
+                          <div className="logo-listing-placeholder">Logo listing goes here</div>
+                        </section>
+                      </div>
+
+                      {/* Text CTA Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <section className="component__text-cta align-center" style={{ background: 'url(images/wave-background-1.html)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                          <div className="component__text-cta-wrapper">
+                            {/* TODO: Add text CTA content here */}
+                            <div className="text-cta-placeholder">Text CTA content</div>
+                          </div>
+                        </section>
+                      </div>
+
+                      {/* Another Full Width Header Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <div className="full-width-header theme-3">
+                          <div className="container">
+                            {/* TODO: Add another full width header content here */}
+                            <div className="full-width-header-placeholder">Another full width header content</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Floor Plan Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <section className="floor__plan">
+                          <div className="container">
+                            <div className="common-head">
+                              <img src="media/reqpbnmj/americas-26-floorplan.html" alt="Floor Plan" />
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+
+                      {/* Company Slider Section (Placeholder) */}
+                      <div className="umb-block-grid__layout-item">
+                        <section className="company-slider__wrapper layout-two">
+                          <div className="container">
+                            {/* TODO: Add company slider content here */}
+                            <div className="company-slider-placeholder">Company slider content</div>
+                          </div>
+                        </section>
+                      </div>
+                      {/* --- End: Additional Main Content Sections from HTML --- */}
                     </div>
                   </div>
                 </div>
